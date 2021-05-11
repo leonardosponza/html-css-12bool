@@ -1,8 +1,14 @@
-.box{
-    min-height: 250px;
+body{
     background-color: rosybrown;
-    border: 1px solid black;
-    padding: 15px;
-    text-align: center;
-    color: white;
 }
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    text-align: center;
+}
+
