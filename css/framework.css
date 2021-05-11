@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 .container-fluid{
-    width: 100%;
+    width: 50%;
+   
 }
 .container {
     width: 100%;
@@ -20,6 +21,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+    flex-flow: row;
 }
 .col-xs-1 {
     flex-basis: calc((100% / 12) * 1);
